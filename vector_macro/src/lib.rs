@@ -78,7 +78,7 @@ pub fn vector_macro(input: TokenStream) -> TokenStream {
         panic!("Vector length must be greater than one")
     }
 
-    //  Add a zero at the end to prevent a syntax error
+    // Add a zero at the end to prevent a syntax error
     quote! {0.}.to_tokens(&mut dot_product_statement);
     quote! {0.}.to_tokens(&mut magnitude_statement);
 
