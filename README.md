@@ -1,4 +1,5 @@
 # libvector - A library with Vector types for linear algebra
+
 [![Build & Tests](https://github.com/grqphical/libvector/actions/workflows/test.yml/badge.svg)](https://github.com/grqphical/libvector/actions/workflows/test.yml)
 
 ## Functional Goals
@@ -66,4 +67,12 @@ fn main() {
 
     let dot = v.dot(&v);
 }
+```
+
+## Docs
+
+To build/view the documentation for this library simply run
+
+```bash
+$ cargo doc --open
 ```
