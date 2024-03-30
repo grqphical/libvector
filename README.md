@@ -1,4 +1,5 @@
 # libvector - A library with Vector types for linear algebra
+[![Build & Tests](https://github.com/grqphical/libvector/actions/workflows/test.yml/badge.svg)](https://github.com/grqphical/libvector/actions/workflows/test.yml)
 
 ## Functional Goals
 
